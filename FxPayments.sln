@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FF8D51DD-D72A-43C8-8535-18725794E855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FxPayments.Api", "src\FxPayments.Api\FxPayments.Api.csproj", "{155E9737-5E6D-4DB5-AE9C-917960802743}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6BD5E9DF-35FD-47F2-B6C1-A64D895A22D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FxPayments.Tests", "tests\FxPayments.Tests\FxPayments.Tests.csproj", "{C0661364-3424-4DA5-AD6D-C908381ED417}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{155E9737-5E6D-4DB5-AE9C-917960802743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{155E9737-5E6D-4DB5-AE9C-917960802743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{155E9737-5E6D-4DB5-AE9C-917960802743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{155E9737-5E6D-4DB5-AE9C-917960802743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0661364-3424-4DA5-AD6D-C908381ED417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0661364-3424-4DA5-AD6D-C908381ED417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0661364-3424-4DA5-AD6D-C908381ED417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0661364-3424-4DA5-AD6D-C908381ED417}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{155E9737-5E6D-4DB5-AE9C-917960802743} = {FF8D51DD-D72A-43C8-8535-18725794E855}
+		{C0661364-3424-4DA5-AD6D-C908381ED417} = {6BD5E9DF-35FD-47F2-B6C1-A64D895A22D0}
+	EndGlobalSection
+EndGlobal
